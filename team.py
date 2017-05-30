@@ -15,7 +15,7 @@ class Team:
             self.lineup.append(Batter(f.readline()));
         f.readline();
         for i in range(2):
-            self.pitchers.append(f.readline());
+            self.pitchers.append(Pitcher(f.readline()));
 
     def getCurrentBatter(self):
         return self.lineup[self.lineupPos];
@@ -28,8 +28,8 @@ class Team:
         return self.pitchers[self.currPitcher];
 
     def pitchAtBat(self):
-        if self.pitchers[self.currentPitcher].doAtBat():
-            self.currentPitcher += 1;
+        if self.pitchers[self.currPitcher].doAtBat():
+            self.currPitcher += 1;
         return
 
 
