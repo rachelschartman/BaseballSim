@@ -14,3 +14,4 @@ class Batter:
             self.hrp = float(stats[2])
             self.doublep = float(stats[3])
             self.triplep = float(stats[4])
+            self.sop = float(stats[5])
