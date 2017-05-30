@@ -1,0 +1,13 @@
+Batters: AVG, WKP, HRP, DBP, TPP
+Andrew Toles: .271, .046, 0.052, .03125, 0
+Corey Seager: .285, .143, .0376, .0699, 0
+Justin Turner: .379, .085, .00714, .0927, 0
+Adrian Gonzalez: .260, .071, .0076, .0687, 0
+Yasmani Grandal: .291, .098, .0338, .0946, 0
+Chris Taylor: .312, .142, .0550, .0642, 0
+Chase Utley: .233, .112, .0291, .0291, .0194
+Yasiel Puig: .243, .093, .0514, .0286, 0
+Clayton Kershaw: .200, .0741, 0, 0, 0
+Pitchers: BAA, WKP, P/G, P/Gstd
+Clayton Kershaw: .221, .0340, 99.6, 9.9465
+Sergio Romo: .219, .1096, 1000, 0

@@ -1,5 +1,7 @@
 def Pitcher:
 
-	
 
-	__init__(self):
+    BAA = 0
+    
+
+    __init__(self):
