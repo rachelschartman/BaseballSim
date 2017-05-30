@@ -1,7 +1,11 @@
-def Pitcher:
+class Pitcher:
 
 
     BAA = 0
-    
+    WKP = 0
+    pitchpg = 0
+    pitchpgstd = 0
 
-    __init__(self):
+    def __init__(self):
+        self.name="hi"
+

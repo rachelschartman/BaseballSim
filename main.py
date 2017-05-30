@@ -1,7 +1,8 @@
+from pitcher import Pitcher
+from batter import Batter
+from team import Team
 
 
+T1 = Team("team1.txt")
 
-f1 = open("team1.txt",'r');
-f2 = open("team2.txt",'r');
 
-print f1.readline();

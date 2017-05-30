@@ -1,3 +1,4 @@
+Anaheim Angels
 Batters: AVG, WKP, HRP, DBP, TPP
 Yunel Escobar: .266, .0706, .0316, .044, 0
 Kole Calhoun: .208, .0948, .0260, .0363, 0
