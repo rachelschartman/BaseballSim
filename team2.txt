@@ -5,6 +5,7 @@ Kole Calhoun: .208, .0948, .0260, .0363, 0
 Mike Trout: .337, .1809, .0982, .089, .0122
 Albert Pujols: .247, .067, .0330, .0330, 0
 Andrelton Simmons: .284, .0798, .0254, .0508, 0
+Andrelton Simmons: .284, .0798, .0254, .0508, 0
 Cameron Maybin: .244, .1585, .0192, .0573, .0064
 Danny Espinosa: .141, .0955, .0282, .0352, 0
 Martin Maldonado: .263, .0426, .0292, .0438, 0
