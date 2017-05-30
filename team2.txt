@@ -1,14 +1,14 @@
 Anaheim Angels
-Batters: AVG, WKP, HRP, DBP, TPP
-Yunel Escobar: .266, .0706, .0316, .044, 0
-Kole Calhoun: .208, .0948, .0260, .0363, 0
-Mike Trout: .337, .1809, .0982, .089, .0122
-Albert Pujols: .247, .067, .0330, .0330, 0
-Andrelton Simmons: .284, .0798, .0254, .0508, 0
-Andrelton Simmons: .284, .0798, .0254, .0508, 0
-Cameron Maybin: .244, .1585, .0192, .0573, .0064
-Danny Espinosa: .141, .0955, .0282, .0352, 0
-Martin Maldonado: .263, .0426, .0292, .0438, 0
+Batters: AVG, WKP, HRP, DBP, TPP, SOP
+Yunel Escobar: .266, .0706, .0316, .044, 0, 0.1203
+Kole Calhoun: .208, .0948, .0260, .0363, 0, 0.2513
+Mike Trout: .337, .1809, .0982, .089, .0122, 0.2577
+Albert Pujols: .247, .067, .0330, .0330, 0, 0.1730
+Andrelton Simmons: .284, .0798, .0254, .0508, 0, 0.1150
+Andrelton Simmons: .284, .0798, .0254, .0508, 0, 0.1150
+Cameron Maybin: .244, .1585, .0192, .0573, .0064, 0.2102
+Danny Espinosa: .141, .0955, .0282, .0352, 0, 0.3873
+Martin Maldonado: .263, .0426, .0292, .0438, 0, 0.2590
 Pitchers: BAA, WKP, P/G, P/Gstd
 Matt Shoemaker: .240, .0895, 91.3636, 9.9627
 Jose Alvarez: .214, .0541, 1000, 0
