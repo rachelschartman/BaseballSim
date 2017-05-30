@@ -32,4 +32,10 @@ class Team:
             self.currPitcher += 1;
         return
 
+    def reset(self):
+        lineupPos = 0;
+        self.currPitcher = 0;
+        self.pitchers[0].reset();
+        self.pitchers[1].reset();
+
 

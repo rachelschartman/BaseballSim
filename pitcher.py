@@ -18,3 +18,7 @@ class Pitcher:
         self.pitches += np.random.binomial(6, 0.478) + 1;
         return (self.pitches >= self.maxpitches);
 
+    def reset(self):
+        self.pitches = 0;
+
+

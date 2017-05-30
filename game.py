@@ -115,6 +115,11 @@ class Game:
     def printGame(self):
         print("%s: %d \t %s: %d" % (self.t1.name.strip('\n'), self.score[0], self.t2.name.strip('\n'), self.score[1]));
 
+    def reset(self):
+        self.score = [0, 0];
+        self.t1.reset();
+        self.t2.reset();
+
 
 
 
