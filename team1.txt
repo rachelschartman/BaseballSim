@@ -1,5 +1,5 @@
 LA Dodgers
-Batters: AVG, WKP, HRP, DBP, TPP
+Batters: AVG, WKP, HRP, DBP, TPP, SOP
 Andrew Toles: .271, .046, 0.052, .03125, 0
 Corey Seager: .285, .143, .0376, .0699, 0
 Justin Turner: .379, .085, .00714, .0927, 0
