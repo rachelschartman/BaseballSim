@@ -11,5 +11,5 @@ Yasiel Puig: .243, .093, .0514, .0286, 0, 0.2229
 Clayton Kershaw: .200, .0741, 0, 0, 0, 0.2000
 Pitchers: BAA, WKP, P/G, P/Gstd
 Clayton Kershaw: .221, .0340, 99.6, 9.9465
-Sergio Romo: .219, .1096, 1000, 0
+Sergio Romo: .219, .1096, 1000, .00001
 

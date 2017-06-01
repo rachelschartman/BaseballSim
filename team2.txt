@@ -11,4 +11,4 @@ Danny Espinosa: .141, .0955, .0282, .0352, 0, 0.3873
 Martin Maldonado: .263, .0426, .0292, .0438, 0, 0.2590
 Pitchers: BAA, WKP, P/G, P/Gstd
 Matt Shoemaker: .240, .0895, 91.3636, 9.9627
-Jose Alvarez: .214, .0541, 1000, 0
+Jose Alvarez: .214, .0541, 1000, .00001
