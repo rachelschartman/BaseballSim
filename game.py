@@ -26,7 +26,7 @@ class Game:
         self.currOuts = 0;
         self.bases = 4*[None]; #initialize bases
         self.score = [0,0];
-    
+
     def doAtBat(self, pitcher, batter):
         adjWalkP = pitcher.WKP / Pitcher.WKP * batter.wkp;
         if (random.random() <= adjWalkP):
@@ -86,7 +86,7 @@ class Game:
             self.scoreRun();
         return
 
-    
+
     def flyOut(self):
         self.currOuts += 1;
 

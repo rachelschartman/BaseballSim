@@ -21,4 +21,3 @@ for j in range(1000):
         tally[1] += 1;
 
 print("%s: %d     %s: %d" % (G.t1.name.strip("\n"), tally[0], G.t2.name.strip("\n"), tally[1]));
-
