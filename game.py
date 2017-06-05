@@ -112,12 +112,16 @@ class Game:
     def doInning(self):
         self.currOuts = 0;
         self.battingTeam = 1;
+        for i in range(4):
+            self.bases[i] = None;
         while (self.currOuts < 3):
             self.doAtBat(self.t1.getCurrentPitcher(), self.t2.getCurrentBatter());
             self.t2.advanceBatter();
             self.t1.pitchAtBat();
         self.currOuts = 0;
         self.battingTeam = 0;
+        for i in range(4):
+            self.bases[i] = None;
         while (self.currOuts < 3):
             self.doAtBat(self.t2.getCurrentPitcher(), self.t1.getCurrentBatter());
             self.t1.advanceBatter();
@@ -136,6 +140,8 @@ class Game:
         self.score = [0, 0];
         self.t1.reset();
         self.t2.reset();
+        for i in range(4):
+            self.bases[i] = None;
 
 
 
