@@ -1,5 +1,6 @@
 from pitcher import Pitcher
 from batter import Batter
+import random
 
 class Team:
 
@@ -37,5 +38,9 @@ class Team:
         self.currPitcher = 0;
         self.pitchers[0].reset();
         self.pitchers[1].reset();
+
+    def shuffle(self):
+        random.shuffle(self.lineup);
+
 
 

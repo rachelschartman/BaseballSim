@@ -28,49 +28,50 @@ class Game:
         self.score = [0,0];
 
     def doAtBat(self, pitcher, batter):
+        self.bases[0] = batter;
         adjWalkP = pitcher.WKP / Pitcher.WKP * batter.wkp;
         if (random.random() <= adjWalkP):
-            self.walk(batter);
+            self.walk();
             return;
         adjBatAvg = pitcher.BAA / Pitcher.BAA * batter.batavg;
         if (random.random() <= adjBatAvg): #hit
             event = random.random();
             if (event <= batter.hrp / batter.batavg):
-                self.advRunners(4, batter); #home run
+                self.advRunners(4); #home run
                 return;
             event -= batter.hrp / batter.batavg;
             if (event <= batter.doublep / batter.batavg):
-                self.advRunners(2, batter); #double
+                self.advRunners(2); #double
                 return;
             event -= batter.doublep / batter.batavg;
             if (event <= batter.triplep / batter.batavg):
-                self.advRunners(3, batter); #triple
+                self.advRunners(3); #triple
                 return;
-            self.advRunners(1, batter); #otherwise just a single
-        else: #out or walk
-            if (random.random() <= batter.sop):
+            self.advRunners(1); #otherwise just a single
+        else: #out
+            if (random.random() <= batter.sop): #strikeout
                 self.currOuts += 1;
                 return;
-            if (random.random() <= .5):
+            if (random.random() <= .2): #flyout
                 self.flyOut();
                 return;
             else:
-                self.groundOut();
+                self.groundOut(); #groundout
                 return;
 
-    def walk(self, batter):
+    def walk(self):
         i = 0;
-        while(self.bases[i] != None and i < 3):
+        while(i <= 3 and self.bases[i] != None):
             i += 1; #finding force
-        if (i == 3):
+        if (i >= 4): #if force at third base run gets scored
             self.scoreRun();
+        i = 3;
+        while (i > 0): #advance all runners one base
+            self.bases[i] = self.bases[i-1];
             i -= 1;
-        while (i > 0):
-            self.bases[i+1] = self.bases[i];
-            i -= 1;
-        self.bases[1] = batter;
+        self.bases[0] = None; #set current batter to none
 
-    def advRunners(self, num, batter):
+    def advRunners(self, num):
         i = 3;
         while ( i > 0 ):
             if (self.bases[i] != None):
@@ -81,9 +82,10 @@ class Game:
                     self.bases[i] = None;
             i -= 1;
         if (num < 4):
-            self.bases[num] = batter;
+            self.bases[num] = self.bases[0];
         else:
             self.scoreRun();
+        self.bases[0] = None;
         return
 
 
@@ -91,6 +93,20 @@ class Game:
         self.currOuts += 1;
 
     def groundOut(self):
+        i = 0;
+        while (self.bases[i] != None and i < 3):
+            i += 1; #finding force
+        if (i == 4):
+            i -= 1;
+        if (i > 0):
+            if (random.random() < .5): #double play
+                self.bases[i] = None;
+                self.bases[i-1] = None;
+                self.currOuts += 2;
+                self.advRunners(1); #simulate rest of players running
+                return;
+        self.bases[i] = None;
+        self.advRunners(1);
         self.currOuts += 1;
 
     def doInning(self):
@@ -109,7 +125,8 @@ class Game:
         return;
 
     def scoreRun(self):
-        self.score[self.battingTeam] += 1;
+        if (self.currOuts < 3):
+            self.score[self.battingTeam] += 1;
         return;
 
     def printGame(self):
