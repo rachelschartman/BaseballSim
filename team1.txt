@@ -1,14 +1,14 @@
-LA Dodgers
+Giants
 Batters: AVG, WKP, HRP, DBP, TPP, SOP
-Andrew Toles: .271, .046, 0.052, .03125, 0, 0.1667
-Corey Seager: .285, .143, .0376, .0699, 0, 0.2366
-Justin Turner: .379, .085, .00714, .0927, 0, 0.1429
-Adrian Gonzalez: .260, .071, .0076, .0687, 0, 0.1985
-Yasmani Grandal: .291, .098, .0338, .0946, 0, 0.2365
-Chris Taylor: .312, .142, .0550, .0642, 0, 0.3028
-Chase Utley: .233, .112, .0291, .0291, .0194, 0.1748
-Yasiel Puig: .243, .093, .0514, .0286, 0, 0.2229
-Clayton Kershaw: .200, .0741, 0, 0, 0, 0.2000
+Denard Span: 0.261, 0.056, 0.022, 0.015, 0.007, 0.119
+Brandon Belt: 0.234, 0.149, 0.049, 0.054, 0.005, 0.278
+Hunter Pence: 0.241, 0.062, 0.022, 0.015, 0.007, 0.226
+Buster Posey: 0.343, 0.131, 0.042, 0.042, 0.000, 0.102
+Brandon Crawford: 0.268, 0.048, 0.025, 0.070, 0.006, 0.204
+Eduardo Nunez: 0.286, 0.042, 0.015, 0.063, 0.000, 0.102
+Joe Panik: 0.247, 0.081, 0.010, 0.062, 0.010, 0.134
+Gorkys Hernandez: 0.175, 0.096, 0.000, 0.049, 0.000, 0.243
+Johnny Cueto: 0.048, 0.045, 0.000, 0.000, 0.000, 0.286
 Pitchers: BAA, WKP, P/G, P/Gstd
-Clayton Kershaw: .221, .0340, 99.6, 9.9465
-Sergio Romo: .219, .1096, 1000, .00001
+Johnny Cueto: .259, .182, 103.33, 8.7939
+Hunter Strickland: .237, .116, 1000, .1

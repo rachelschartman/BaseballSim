@@ -11,6 +11,8 @@ class Pitcher:
         stats = stats.split(",");
         self.BAA = float(stats[0]);
         self.WKP = float(stats[1]);
+        self.PG = float(stats[2]);
+        self.PGstd = float(stats[3]);
         self.maxpitches = np.random.normal(float(stats[2]), float(stats[3]));
         self.pitches = 0;
 
@@ -22,3 +24,5 @@ class Pitcher:
         #e(v) of a binomial is p*n p=.478,n=6
     def reset(self):
         self.pitches = 0;
+        self.maxpitches = np.random.normal(self.PG, self.PGstd);
+

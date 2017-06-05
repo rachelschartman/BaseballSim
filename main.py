@@ -8,6 +8,7 @@ Pitcher.WKP = .08717;
 Pitcher.BAA = .250;
 numGames = 10000;
 T1 = Team("team1.txt");
+T1.shuffle();
 T2 = Team("team2.txt");
 G = Game(T1, T2);
 tally = [0, 0, 0];
